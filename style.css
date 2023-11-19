@@ -22,8 +22,17 @@
   .content {
     padding: 16px;
     background-color: rgb(44, 73, 244);
-    min-height: 100vh
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .container {
     min-height: 100vh;
+  }
+  .header {
+    font-size: 4rem;
+    font-weight: 500;
+    color: white;
+    font-family: 'Inter', sans-serif;
   }
