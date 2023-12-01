@@ -12,7 +12,7 @@ The website also features a gallery showing past work done to attract customers.
  As a user I would like to see examples of completed works by XYZ
  As a user I would like to be able to contact the company for any inquiries
  
- **Figma Link**
+ **Figma Link:**
  https://www.figma.com/file/x2RiX2caX3pyCjMGcyb5PM/Assignment-1-Wireframe?type=design&node-id=0%3A1&mode=design&t=JnTpXQ9FTSfcYqyn-1
 
 ## Features
@@ -31,14 +31,22 @@ The fourth section contains a contact form allowing the user to contact the comp
 The footer contains the phone number, location and social media links of the company.
 
 ### Features Left to Implement
-more animations to further convince potential customers to use XYZ's software
+More animations to further convince potential customers to use XYZ's software
 
 ## Technologies Used
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-- [FeatherIcons](https://feathericons.com)
-    - The project uses **FeatherIcons** for logos.
+- [Feather Icons](https://feathericons.com)
+    - The project uses **Feather Icons** for logos.
+
+## Testing
+
+Hooks the user with a hero page? ✅
+Convinces the user on why they should choose XYZ over other companies? ✅
+Provides examples on what the user could achive if they used XYZ's software? ✅
+Allows user to fill up a contact form? ✅
+Footer contains contact and copyright information? ✅
 
 ## Credits
 
