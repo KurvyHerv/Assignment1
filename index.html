@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 1</title>
 </head>
 <body>
@@ -21,8 +22,10 @@
     </section>
     <section class="container" style="flex-direction: column;">
         <div>
-            <p style="font-family: 'Inter', sans-serif; font-weight: 300; font-size: 3rem; margin: 0px;">Start creating clean and</p>
-            <p style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 3rem; margin-top: 0px;">optmised landings.</p>
+            <p class="font" style="font-weight: 300;  margin-bottom: 0px;">Start creating clean and</p>
+            <div class="typing-container">
+                <p class="sentence">optimized <span id="sentence" class="sentence"></span> <span class="input-cursor"></span></p>
+            </div>
         </div>
           <div class="card-container">
             <div class="card">
@@ -54,7 +57,7 @@
             </div>
           </div>
     </section>
-    <section class="container" style="background-color: #eee; flex-direction: column; min-height: 250vh; gap: 50px;">
+    <section class="gallery-section" style="background-color: #eee; flex-direction: column; min-height: 250vh; gap: 50px;">
         <div class="gallery-text">
             <p style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 3rem; margin: 0px;">Made With XYZ.<br>Real Websites.<br>Real Projects.</p>
         </div>
@@ -79,7 +82,7 @@
     </section>
     <section class="container" style="flex-direction: column; gap: 50px;">
         <div class="gallery-text" style="text-align: left;">
-            <p style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 3rem; margin: 0px;">Let's make something big.
+            <p class="font">Let's make something big.
                 <br>Together.</p>
         </div>
         <form action="#" class="form">
@@ -138,6 +141,7 @@
         </div>
     </footer>
     <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script>
         feather.replace()
     </script>
