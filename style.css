@@ -101,7 +101,14 @@
     flex-wrap: wrap;
     max-width: 70vh;
     min-height: 70vh;
-
+  }
+  .gallery-card-long {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 70vh;
+    min-height: 100vh;
   }
   .gallery-container img {
     width: 100%;
@@ -113,6 +120,7 @@
     display: flex;
     min-width: 70%;
     justify-content: center;
+    gap: 20px;
   }
 
   .form {
@@ -236,5 +244,39 @@ footer {
   .card {
     max-width: 90%;
     margin-left: 5%;
+  }
+  .gallery-container-container {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .gallery-card-long {
+    min-height: 0%;
+    max-width: 70%;
+  }
+  .gallery-card {
+    min-height: 0%;
+    max-width: 70%;
+  }
+  .footer-container {
+    min-width: 0%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+  .gallery-container {
+    min-width: 100%;
+  }
+  .container {
+    min-width: 100%;
+  }
+  .gallery-section {
+    min-height: 0%;
+  }
+  .gallery-card {
+    min-width: 100%;
+  }
+  .gallery-card-long {
+    min-width: 100%;
   }
 }
