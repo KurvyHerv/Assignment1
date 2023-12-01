@@ -48,6 +48,9 @@ Provides examples on what the user could achive if they used XYZ's software? ✅
 Allows user to fill up a contact form? ✅
 Footer contains contact and copyright information? ✅
 
+Website is minimalistic and stylish to hook users 
+Wesbsite is responsive and looks minimalistic and stylish on mobile devices
+
 ## Credits
 
 ### Content
