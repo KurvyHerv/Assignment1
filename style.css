@@ -148,3 +148,44 @@
   color: white;
   text-decoration: none;
 }
+
+footer {
+  min-height: 60vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  font-family: 'Inter', sans-serif; font-weight: 300; font-size: 2rem; margin: 0px;
+  justify-content: space-between;
+  max-width: 150vh;
+}
+
+.h5 {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 150vh;
+  min-width: 150vh;
+  justify-content: center;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.social-logos:link, .social-logos:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
